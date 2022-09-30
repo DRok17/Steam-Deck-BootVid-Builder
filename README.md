@@ -16,6 +16,26 @@ BootVid-Builder is a tool that allows users to create and apply their own Boot S
 6) Run the z-prep-apply-boot.sh script (double-click)
 7) Steam Deck will then reboot with the applied BootVid video
 
+<!-- Spacer -->
+<p align="center">
+  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
+</p>
+<!-- MB Menu -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81541725/193354746-28745938-4723-477f-84ce-0d414eff12eb.gif?raw=true" alt="Sublime's custom image"/>
+</p>
+<!-- Spacer -->
+<p align="center">
+  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
+</p>
+
+<!-- MB Menu -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81541725/193355518-d2336c68-764a-45b1-8019-72ac7b594c87.gif?raw=true" alt="Sublime's custom image"/>
+</p>
+
+
+
 #### Video Conversion:
 1) Download the required MP4 video files
 2) Inside the Converter folder, place the MP4 file (one file at the time) into the Input Folder
@@ -31,6 +51,14 @@ BootVid-Builder is a tool that allows users to create and apply their own Boot S
 #### Optional
 - Windows batch files have also been provided for video conversion.
 
+<!-- Spacer -->
+<p align="center">
+  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
+</p>
+<!-- MB Menu -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81541725/193356147-03781be0-2398-465b-88e8-9b0849170fb9.gif?raw=true" alt="Sublime's custom image"/>
+</p>
 <!-- Spacer -->
 <p align="center">
   <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
