@@ -125,9 +125,13 @@ Reset-2-Default - Resets your Steam Deck library.css and library.js files back t
 
 #### ** GENERAL SHOUTOUTS **
 
-[AutoMcG](https://github.com/AutoMcG/steamdeck_tools) - Making the first script-based BootVid applier. Without him, it would have taken me much longer to create this.
+[AutoMcG](https://github.com/AutoMcG/steamdeck_tools) - Creator of the first script-based BootVid applier. Without him, it would have taken me much longer to create this.
 
-[r/SteamDeckBootVids](https://www.reddit.com/r/SteamDeckBootVids/) - For providing the inspritation and creating awesome BootVids
+[kageurufu](https://github.com/kageurufu/steamdeck_startup_animations) - For their work on startup animations and use of FFmpeg.
+
+[FFmpeg](https://ffmpeg.org/) - Media converter used, Linux and Windows versions.
+
+[r/SteamDeckBootVids](https://www.reddit.com/r/SteamDeckBootVids/) - For providing the inspiration and creating awesome BootVids
 
 
 
