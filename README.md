@@ -39,17 +39,15 @@ BootVid-Builder is a tool that allows users to create and apply their own Boot S
 #### Video Conversion:
 1) Download the required MP4 video files
 2) Inside the Converter folder, place the MP4 files into the Input Folder (no limit, script will process each one seperately)
-3) In the previous directory, run the either scripts below:
-   - zLinux-Convert-and-Resize-500k.sh - Video Bitrate 500k and Audio Bitrate 64k - Lower quality, smaller file size (Best for video 16 seconds and over)
-   - zLinux-Convert-and-Resize-1000k.sh  - Video Bitrate 1000k and Audio Bitrate 64k - Better quality, larger file size (Best for videos 15 seconds and under)
+3) In the previous directory, run one of the scripts below:
+   - 16secs-and-under.sh - Videos 16 seconds and under will be resized to 1.8 mb (results can vary)
+   - 16secs-and-under-SMALL.sh  - Videos 16 seconds and under will be resized to 1.7 mb (Smaller version of the above script)
+   - 17secs-and-over.sh  - Videos 17 seconds and over will be resized to 1.4 mb (results can vary)
 4) Video conversion will begin in the background
 5) Once completed files will be placed as follows:
    - MP4 : Input/Done
    - WEBM : Out
 6) File can now be placed into the WEBM-Input folder
-
-#### Optional
-- Windows batch files have also been provided for video conversion.
 
 <!-- Spacer -->
 <p align="center">
@@ -57,7 +55,7 @@ BootVid-Builder is a tool that allows users to create and apply their own Boot S
 </p>
 <!-- MB Menu -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/81541725/193356147-03781be0-2398-465b-88e8-9b0849170fb9.gif?raw=true" alt="Sublime's custom image"/>
+  <img src="https://user-images.githubusercontent.com/81541725/193466655-e063eca8-53be-4028-b65c-84936b3353d5.gif?raw=true" alt="Sublime's custom image"/>
 </p>
 <!-- Spacer -->
 <p align="center">
@@ -92,7 +90,7 @@ BootVid-Builder is a tool that allows users to create and apply their own Boot S
 
 <!-- MB Menu -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/81541725/193352871-a506502b-88c1-41c8-8fc8-01365009f936.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://user-images.githubusercontent.com/81541725/193466812-91be4052-3304-41d6-b1bf-16fe2333e93d.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 
