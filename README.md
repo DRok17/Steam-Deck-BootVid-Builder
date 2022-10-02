@@ -38,7 +38,7 @@ BootVid-Builder is a tool that allows users to create and apply their own Boot S
 
 #### Video Conversion:
 1) Download the required MP4 video files
-2) Inside the Converter folder, place the MP4 file (one file at the time) into the Input Folder
+2) Inside the Converter folder, place the MP4 files into the Input Folder (no limit, script will process each one seperately)
 3) In the previous directory, run the either scripts below:
    - zLinux-Convert-and-Resize-500k.sh - Video Bitrate 500k and Audio Bitrate 64k - Lower quality, smaller file size (Best for video 16 seconds and over)
    - zLinux-Convert-and-Resize-1000k.sh  - Video Bitrate 1000k and Audio Bitrate 64k - Better quality, larger file size (Best for videos 15 seconds and under)
