@@ -65,7 +65,3 @@ cp $js_file $js_path
 truncate -s $(($vid_size)) $vid_path
 truncate -s $(($css_size)) $css_path
 truncate -s $(($js_size)) $js_path
-
-#Clean Up
-rm $js_file
-rm $css_file
