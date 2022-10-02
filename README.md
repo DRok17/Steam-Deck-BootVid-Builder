@@ -129,6 +129,8 @@ Reset-2-Default - Resets your Steam Deck library.css and library.js files back t
 
 [kageurufu](https://github.com/kageurufu/steamdeck_startup_animations) - For their work on startup animations and use of FFmpeg.
 
+[tobek](https://unix.stackexchange.com/a/598360) - Used his FFmpeg script to improve Converter
+
 [FFmpeg](https://ffmpeg.org/) - Media converter used, Linux and Windows versions.
 
 [r/SteamDeckBootVids](https://www.reddit.com/r/SteamDeckBootVids/) - For providing the inspiration and creating awesome BootVids
