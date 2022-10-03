@@ -103,6 +103,14 @@ BootVid-Builder is a tool that allows users to create and apply their own Boot S
 
 Reset-2-Default - Resets your Steam Deck library.css and library.js files back to default
 
+Add Non-Steam Game Icons - Add movefiles.sh or z-Reset-2-Default.sh to the home screen. Allows users to re-apply the last custom BootVid or reset back to default.
+
+<!-- MB Menu -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81541725/193622598-906d4a03-1f12-428e-87a6-7bd4c9eb2765.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
+
 
 <!-- <p align="center">
   <img src="https://user-images.githubusercontent.com/81541725/124930830-a8e90580-dfcf-11eb-980b-999fe3a546bc.png?raw=true" alt="RetroBuilder"/>
@@ -123,7 +131,7 @@ Reset-2-Default - Resets your Steam Deck library.css and library.js files back t
 
 #### ** GENERAL SHOUTOUTS **
 
-[AutoMcG](https://github.com/AutoMcG/steamdeck_tools) - Creator of the first script-based BootVid applier. Without him, it would have taken me much longer to create this.
+[AutoMcG](https://github.com/AutoMcG/steamdeck_tools) - Without him, it would have taken me much longer to create this.
 
 [kageurufu](https://github.com/kageurufu/steamdeck_startup_animations) - For their work on startup animations and use of FFmpeg.
 
