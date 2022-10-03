@@ -62,15 +62,15 @@ BootVid-Builder is a tool that allows users to create and apply their own Boot S
   <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
 </p>
 
+<!-- 
 #### Supported File Types:
-<!-- Aligns table to center -->
-<img align="left" width="225" height="100" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
 
 | Video Files  |
 | :---: |
 | .mp4  | 
 | .webm  | 
 
+-->
 
 <!-- Spacer -->
 <p align="center">
