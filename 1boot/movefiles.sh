@@ -7,6 +7,7 @@ done
 #Pathways to Video, CSS, and JSS files
 vid_inp="./deck_startup.webm"
 vid_path="/home/deck/.local/share/Steam/steamui/movies/deck_startup.webm"
+ovr_path="/home/deck/.local/share/Steam/steamui/overrides/movies/deck_startup.webm"
 css_path="/home/deck/.local/share/Steam/steamui/css/library.css"
 js_path="/home/deck/.local/share/Steam/steamui/library.js"
 backup="./css-js/"
@@ -15,7 +16,23 @@ js_backupfile="./css-js/library.js"
 edit="./"
 css_file="./library.css"
 js_file="./library.js"
+override="./override.txt"
 
+#Check if Override is enabled
+if [ -e $override ]
+then
+    mkdir -p /home/deck/.local/share/Steam/steamui/overrides/movies
+    vid_size=$(stat --printf="%s" $vid_path)
+    cp $vid_inp $ovr_path
+    truncate -s $(($vid_size)) $ovr_path
+    echo "Modified" > 100.txt
+    rm 100.txt
+    exit
+else
+    #Continue with non-official
+    echo "Override Off" > 100.txt
+    rm 100.txt
+fi
 #Get Stats
 vid_size=$(stat --printf="%s" $vid_path)
 css_size=$(stat --printf="%s" $css_path)
