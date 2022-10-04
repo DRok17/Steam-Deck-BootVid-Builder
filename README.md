@@ -34,6 +34,10 @@ BootVid-Builder is a tool that allows users to create and apply their own Boot S
   <img src="https://user-images.githubusercontent.com/81541725/193355518-d2336c68-764a-45b1-8019-72ac7b594c87.gif?raw=true" alt="Sublime's custom image"/>
 </p>
 
+<!-- Spacer -->
+<p align="center">
+  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
+</p>
 
 
 #### Video Conversion:
