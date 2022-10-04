@@ -10,8 +10,7 @@ Official Steam Deck Overrides is now supported (see warning below). Please use t
 </p>
 
 ### *** WARNING ***
-Stable, Beta and Preview CSS and JS files should not be mixed. This can potentionally soft-brick your Steam Deck, preventing it for booting into Steam OS. Factory restore is the only solution.
-If you have updated to Beta or Preview, please enable z-Override-Toggle.sh and do not disable it for any reason. Any duration issues will need to be fixed by Valve.
+Stable, Beta, and Preview CSS and JS files should not be mixed. This can potentially **SOFT-BRICK** your Steam Deck, preventing it from booting into Steam OS. Factory restore is the only solution. If you have updated to Beta or Preview, please enable z-Override-Toggle.sh and do not disable it for any reason. Any duration issues related to this update will need to be fixed by Valve.
 ### *** WARNING ***
 <!-- Spacer -->
 <p align="center">
