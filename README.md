@@ -2,7 +2,12 @@
 
 BootVid-Builder is a tool that allows users to create and apply their own Boot Startup Videos and switches between them on demand.
 
-Official Steam Deck Overrides is now supported. Please use the additional Override-Toggle.sh to enable it (only on Preview channel for Steam Deck)
+Official Steam Deck Overrides is now supported (see warning below). Please use the additional z-Override-Toggle.sh to enable it (only on Beta/Preview channels for Steam Deck).
+
+<!-- Spacer -->
+<p align="center">
+  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
+</p>
 
 ### *** WARNING ***
 Stable, Beta and Preview CSS and JS files should not be mixed. This can potentionally soft-brick your Steam Deck, preventing it for booting into Steam OS. Factory restore is the only solution.
