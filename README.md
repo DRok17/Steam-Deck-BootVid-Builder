@@ -2,6 +2,8 @@
 
 BootVid-Builder is a tool that allows users to create and apply their own Boot Startup Videos and switches between them on demand.
 
+Official Steam Deck Overrides is now supported. Please use the additional Override-Toggle.sh to enable it (only on Preview channel for Steam Deck)
+
 <!-- Spacer -->
 <p align="center">
   <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
@@ -106,6 +108,10 @@ BootVid-Builder is a tool that allows users to create and apply their own Boot S
 #### Additional Features:
 
 Reset-2-Default - Resets your Steam Deck library.css and library.js files back to default
+
+Extract-Vids - Allows Users to extract all WEBM files from the Vids folder for storage purposes or to reprocess them.
+
+Override-Toggle - Official Steam Deck support when Override is enabled. (MUST HAVE PREVIEW CHANNEL ENABLED TO WORK)
 
 Add Non-Steam Game Icons - Add movefiles.sh or z-Reset-2-Default.sh to the home screen. Allows users to re-apply the last custom BootVid or reset back to default.
 
