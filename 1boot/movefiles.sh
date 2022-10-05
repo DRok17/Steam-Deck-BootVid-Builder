@@ -21,10 +21,9 @@ override="./override.txt"
 #Check if Override is enabled
 if [ -e $override ]
 then
-    mkdir -p /home/deck/.local/share/Steam/steamui/overrides/movies
+    mkdir -p /home/deck/.local/root/config/uioverrides/movies
     vid_size=$(stat --printf="%s" $vid_path)
     cp $vid_inp $ovr_path
-    truncate -s $(($vid_size)) $ovr_path
     echo "Modified" > 100.txt
     rm 100.txt
     exit

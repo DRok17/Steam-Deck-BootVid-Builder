@@ -7,7 +7,7 @@ then
     rm Override-Enabled.txt
     rm $override
 else
-    #Enableds Override
+    #Enables Override
     echo "Override-Enabled" > Override-Enabled.txt
     echo "Override-Enabled" > $override
 fi
