@@ -11,14 +11,6 @@ then
     rm $ovr_path
     qdbus org.kde.Shutdown /Shutdown org.kde.Shutdown.logout
 else
-    if [ -e $css_backupfile ] #Check for BootVid-Builder backup
-    then
-        rm $css_path
-        rm $css_backupfile
-        rm $js_backupfile
-        rm $ovr_path
-        qdbus org.kde.Shutdown /Shutdown org.kde.Shutdown.logout
-    else
-        exit
-    fi
+    echo "Modified" > 100.txt
+    rm 100.txt
 fi
