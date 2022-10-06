@@ -2,16 +2,11 @@
 
 BootVid-Builder is a tool that allows users to create and apply their own Boot Startup Videos and switches between them on demand.
 
-Official Steam Deck Overrides is now supported on the Beta/Preview channels ( **SEE WARNING** ).
+Official Steam Deck Overrides is now supported. Files will be placed the following directory:
+/home/deck/.steam/root/config/uioverrides/movies/
+| :---: |
 
-<!-- Spacer -->
-<p align="center">
-  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
-</p>
 
-### *** WARNING ***
-Stable, Beta, and Preview CSS and JS files should not be mixed. This can potentially **SOFT-BRICK** your Steam Deck, preventing it from booting into Steam OS. Factory restore is the only solution. If you have updated to Beta or Preview, please enable z-Override-Toggle.sh and do not disable it for any reason. Any duration issues related to this update will need to be fixed by Valve.
-### *** WARNING ***
 <!-- Spacer -->
 <p align="center">
   <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
@@ -54,9 +49,9 @@ Stable, Beta, and Preview CSS and JS files should not be mixed. This can potenti
 1) Download the required MP4 video files
 2) Inside the Converter folder, place the MP4 files into the Input Folder (no limit, script will process each one seperately)
 3) In the previous directory, run one of the scripts below:
-   - 16secs-and-under.sh - Videos 16 seconds and under will be resized to 1.8 mb (results can vary)
-   - 16secs-and-under-SMALL.sh  - Videos 16 seconds and under will be resized to 1.7 mb (Smaller version of the above script)
-   - 17secs-and-over.sh  - Videos 17 seconds and over will be resized to 1.4 mb (results can vary)
+   - 16secs-and-under-1.8mb.sh - Videos 16 seconds and under will be resized to 1.8 mb (results can vary)
+   - 16secs-and-under-1.7mb.sh  - Videos 16 seconds and under will be resized to 1.7 mb (Smaller version of the above script)
+   - 17secs-and-over-1.4mb.sh  - Videos 17 seconds and over will be resized to 1.4 mb (results can vary)
 4) Video conversion will begin in the background
 5) Once completed files will be placed as follows:
    - MP4 : Input/Done
@@ -76,14 +71,14 @@ Stable, Beta, and Preview CSS and JS files should not be mixed. This can potenti
   <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
 </p>
 
-<!-- 
+ 
 #### Supported File Types:
 
 | Video Files  |
 | :---: |
 | .mp4  | 
 | .webm  | 
-
+<!--
 -->
 
 <!-- Spacer -->
@@ -118,8 +113,6 @@ Stable, Beta, and Preview CSS and JS files should not be mixed. This can potenti
 Reset-2-Default - Resets your Steam Deck library.css and library.js files back to default
 
 Extract-Vids - Allows Users to extract all WEBM files from the Vids folder for storage purposes or to reprocess them.
-
-Override-Toggle - Official Steam Deck support when Override is enabled. (MUST HAVE PREVIEW CHANNEL ENABLED TO WORK)
 
 Add Non-Steam Game Icons - Add movefiles.sh or z-Reset-2-Default.sh to the home screen. Allows users to re-apply the last custom BootVid or reset back to default.
 
