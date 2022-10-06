@@ -6,6 +6,15 @@ Official Steam Deck Overrides is now supported. Files will be placed the followi
 /home/deck/.steam/root/config/uioverrides/movies/
 | :---: |
 
+<!-- Spacer -->
+<p align="center">
+  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
+</p>
+
+#### Installing BootVid-Builder on Steam Deck
+1) Go to Desktop mode
+2) Download the latest release from https://github.com/DRok17/Steam-Deck-BootVid-Builder/releases (Zip file only)
+3) Extract ZIP file to either Home or Removable Storage (SD card)
 
 <!-- Spacer -->
 <p align="center">
