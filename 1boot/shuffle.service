@@ -1,0 +1,10 @@
+[Unit]
+Description=Shuffle BootVids
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/deck/homebrew/.shuffle
+ExecStart=/home/deck/homebrew/.shuffle/shuffle.sh
+
+[Install]
+WantedBy=default.target
