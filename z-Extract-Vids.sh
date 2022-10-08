@@ -1,6 +1,6 @@
 #!/bin/sh
-mkdir -p All
-find Vids '*.webm' -exec cp -vuni '{}' "./All" ";"
+mkdir -p All-Vids
+find Vids '*.webm' -exec cp -vuni '{}' "./All-Vids" ";"
 rm -rf Vids
 mkdir -p Vids
-rm ./All/z-prep-apply-boot.sh
+rm ./All-Vids/z-prep-apply-boot.sh
