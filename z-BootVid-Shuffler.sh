@@ -7,17 +7,17 @@ shuf_ser="./1boot/shuffle.service"
 if [ -e $shuf_path ]
 then
     rm -rf /home/deck/homebrew/.shuffle
-    rm z-Shuffle-Enabled.txt
+    rm z-Shuffler-Enabled.txt
     cd ./1boot
     sh shuffle-uninstall.sh
     exit
 else
     mkdir -p /home/deck/homebrew/.shuffle
     find Vids '*.webm' -exec cp -vuni '{}' "/home/deck/homebrew/.shuffle" ";"
-    rm ./All/z-prep-apply-boot.sh
+    rm /home/deck/homebrew/.shuffle/z-prep-apply-boot.sh
     cp $shuf_sh $shuf_path
     cp $shuf_ser $shuf_path
-    echo "Shuffle Enabled" > z-Shuffle-Enabled.txt
+    echo "Shuffler Enabled" > z-Shuffler-Enabled.txt
     cd ./1boot
     sh shuffle-install.sh
     exit

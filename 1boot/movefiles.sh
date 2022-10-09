@@ -19,9 +19,10 @@ if [ -e $ovr_path ]
 then
     mkdir -p /home/deck/.steam/root/config/uioverrides/movies
     cp $vid_inp $ovr_path
-    exit
+    qdbus org.kde.Shutdown /Shutdown org.kde.Shutdown.logout
 else
     mkdir -p /home/deck/.steam/root/config/uioverrides/movies
     cp $vid_inp $ovr_path
-    exit
+    qdbus org.kde.Shutdown /Shutdown org.kde.Shutdown.logout
 fi
+
