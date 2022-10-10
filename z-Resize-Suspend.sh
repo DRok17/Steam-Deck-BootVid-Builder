@@ -14,6 +14,10 @@ then
     cd ./1boot
     rm sus-min.txt
     echo "sus_max" > sus-max.txt
+    cd ..
+    echo "Scripts" > Suspend-Size-Max.txt
+    sleep 3
+    rm Suspend-Size-Max.txt
     exit
 else
     if [ -e $sus_max ]
@@ -27,10 +31,18 @@ else
         cd ./1boot
         rm sus-max.txt
         echo "sus_min" > sus-min.txt
+        cd ..
+        echo "Scripts" > Suspend-Size-Min.txt
+        sleep 3
+        rm Suspend-Size-Min.txt
         exit
     else
         cd ./1boot
         echo "sus_min" > sus-min.txt
+        cd ..
+        echo "Scripts" > Suspend-Size-Min.txt
+        sleep 3
+        rm Suspend-Size-Min.txt
         exit
     
     fi
