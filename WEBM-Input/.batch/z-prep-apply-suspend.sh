@@ -4,5 +4,5 @@ do
    cp -- "$f" ../../1boot/
 done
 cd ../../1boot
-echo "vids" > vids.txt
+echo "sus" > sus.txt
 sh movefiles.sh
