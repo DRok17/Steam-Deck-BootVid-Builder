@@ -26,6 +26,8 @@ then
         cp $vid_inp $ovr_path
         qdbus org.kde.Shutdown /Shutdown org.kde.Shutdown.logout
     fi
+else
+rm deck_startup.webm
 fi
 
 
@@ -56,4 +58,6 @@ then
         cp $vid_inp $thr_path
         qdbus org.kde.Shutdown /Shutdown org.kde.Shutdown.logout
     fi
+else
+rm deck-suspend-animation.webm
 fi
