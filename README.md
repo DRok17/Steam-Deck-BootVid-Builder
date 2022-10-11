@@ -1,19 +1,15 @@
 # BootVid-Builder for Steam Deck
 
-BootVid-Builder is a tool that allows users to apply or create their own Boot Startup Videos and switches between them on demand. 
+BootVid-Builder is a tool that allows users to apply or create their own Boot Startup or Suspend Videos and switches between them on demand.
 
-BootVid-Shuffler has been added and can shuffle/randomize through the available BootVids once enabled.
+Both Suspends and Throbber animations will be replaced at the same time. If there's a need for a separtation of the two, please open an Issue and we can discuss.
 
-Official Steam Deck Overrides is now supported. Files will be placed the following directory:
+Valve has now introduced official support for Overrides. Files will be placed the following directory:
+
 /home/deck/.steam/root/config/uioverrides/movies/
 | :---: |
 
-<!-- Spacer -->
-<p align="center">
-  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
-</p>
-
-#### Installing and Getting Started with BootVid-Builder on Steam Deck
+## Installing and Getting Started with BootVid-Builder on Steam Deck
 1) Go to Desktop mode
 2) Download the latest release from https://github.com/DRok17/Steam-Deck-BootVid-Builder/releases (Zip file only)
 3) Extract ZIP file to either Home or Removable Storage (SD card)
@@ -42,14 +38,18 @@ Official Steam Deck Overrides is now supported. Files will be placed the followi
   <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
 </p>
 
-#### Simply follow these steps to apply WEBM BootVids:
+## Applying BootVids and Suspends
 1) Download the required WEBM video files
 2) Place them into the WEBM-Input folder
-3) Inside WEBM-Input folder, and run the Add-Video-2-Library.sh script (double-click)
-4) WEBM and an accompanied SH script will moved to the Vids folder in the previous directory
-5) Inside Vids folder, select the named folder that matches your file name and open it
-6) Run the z-prep-apply-boot.sh script (double-click)
-7) Steam Deck will then reboot with the applied BootVid video
+3) Inside WEBM-Input folder, and run either script (double-click):
+    - Add-Video-2-Library.sh
+    - Add-Suspend-2-Library.sh
+4) WEBM and an accompanied SH script will moved to the either the Vids or Suspends folder in the previous directory
+5) Inside Vids or Suspends folder, select the named folder that matches your file name and open it
+6) Run either script below (double-click):
+    - z-prep-apply-boot.sh
+    - z-prep-apply-suspend.sh
+7) Steam Deck will then log off with the applied BootVid and/or Suspend video
 
 <!-- Spacer -->
 <p align="center">
@@ -72,7 +72,7 @@ Official Steam Deck Overrides is now supported. Files will be placed the followi
 
 <!-- Center Text -->
 <p align="center">
-- Appply BootVid -
+- Apply BootVid -
 </p>
 <!-- MB Menu -->
 <p align="center">
@@ -84,32 +84,11 @@ Official Steam Deck Overrides is now supported. Files will be placed the followi
   <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
 </p>
 
-
-#### BootVid-Shuffler
-
-This tool will copy all of the BootVids placed in the Vids folder and install a service to shuffle/randomize BootVids at every restart.
-
-To enable/disable, just run the z-BootVid-Shuffler.sh script and restart the device.
-
-Any BootVid that's added to the Video Library via WEB-Input folder will join the rotation.
-
-BootVids are placed in the following folder:
-
-/home/deck/homebrew/.shuffle/
-| :---: |
-<!-- Spacer -->
-<p align="center">
-  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
-</p>
-
-
-#### Video Conversion:
+## Video Conversion:
 1) Download the required MP4 video files
 2) Inside the Converter folder, place the MP4 files into the Input Folder (no limit, script will process each one seperately)
-3) In the previous directory, run one of the scripts below:
-   - 16secs-and-under-1.8mb.sh - Videos 16 seconds and under will be resized to 1.8 mb (results can vary)
-   - 16secs-and-under-1.7mb.sh  - Videos 16 seconds and under will be resized to 1.7 mb (Smaller version of the above script)
-   - 17secs-and-over-1.4mb.sh  - Videos 17 seconds and over will be resized to 1.4 mb (results can vary)
+3) In the previous directory, run the script below:
+   - Convert-MP4-2-WEBM.sh - File size is aimed for 5mb but results can vary. Mostly just good quality with less compression.
 4) Video conversion will begin in the background
 5) Once completed files will be placed as follows:
    - MP4 : Input/Done
@@ -130,6 +109,48 @@ BootVids are placed in the following folder:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/81541725/193466655-e063eca8-53be-4028-b65c-84936b3353d5.gif?raw=true" alt="Sublime's custom image"/>
 </p>
+<!-- Spacer -->
+<p align="center">
+  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
+</p>
+
+
+## Features:
+
+### BootVid-Shuffler
+
+This tool will copy all of the BootVids placed in the Vids folder and install a service to shuffle/randomize BootVids at every restart.
+
+To enable/disable, just run the z-BootVid-Shuffler.sh script and restart the device.
+
+Any BootVid that's added to the Video Library via WEB-Input folder will join the rotation.
+
+BootVids are placed in the following folder:
+
+/home/deck/homebrew/.shuffle/
+| :---: |
+
+### Log off and Shuffle
+
+If BootVid Shuffler is enabled, Shuffles BootVid before performing the "Return to Gaming Mode" command, basically bypassing the restart rule.
+
+### Change Duration
+
+Duration of BootVids can be adjusted from 10, 30 and 60 seconds increments. (NOTE: If duration has been updated manually, you may need to cycle thru the options or revert to 1e4).
+
+### Resize Suspends
+
+Suspends can be toggled between 450 by 450 or 1280 by 800 resolutions.
+
+### Extract Vids
+
+All BootVids are extracted to the All-Vids folder. Vids folder reset to 0.
+
+### Reset to Default
+
+Resets BootVids and Suspends back to Steam Deck defaults. BootVid only option available.
+
+
 <!-- Spacer -->
 <p align="center">
   <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
@@ -176,6 +197,8 @@ BootVids are placed in the following folder:
   <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
 </p>
 
+<!-- 
+
 #### Additional Features:
 
 Reset-2-Default - Resets your Steam Deck library.css and library.js files back to default
@@ -183,12 +206,12 @@ Reset-2-Default - Resets your Steam Deck library.css and library.js files back t
 Extract-Vids - Allows Users to extract all WEBM files from the Vids folder for storage purposes or to reprocess them.
 
 Add Non-Steam Game Icons - Add movefiles.sh or z-Reset-2-Default.sh to the home screen. Allows users to re-apply the last custom BootVid or reset back to default.
-
+-->
 <!-- MB Menu -->
-<p align="center">
+<!-- <p align="center">
   <img src="https://user-images.githubusercontent.com/81541725/193622598-906d4a03-1f12-428e-87a6-7bd4c9eb2765.png?raw=true" alt="Sublime's custom image"/>
 </p>
-
+-->
 
 
 <!-- <p align="center">
