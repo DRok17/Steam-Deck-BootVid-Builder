@@ -1,7 +1,5 @@
 #!/bin/bash
 #Set Paths/Files
-css_backupfile="./1boot/css-js/library.css"
-js_backupfile="./1boot/css-js/library.js"
 ovr_path="/home/deck/.steam/root/config/uioverrides/movies/deck_startup.webm"
 
 #WEBM Check
