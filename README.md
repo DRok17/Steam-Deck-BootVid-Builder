@@ -13,7 +13,7 @@ Valve has now introduced official support for Overrides. Files will be placed th
 1) Go to Desktop mode
 2) Download the latest release from https://github.com/DRok17/Steam-Deck-BootVid-Builder/releases (Zip file only)
 3) Extract ZIP file to either Home or Removable Storage (SD card)
-4) Once extracted, open the BootVid-Builder-1.4 folder and locate the 1-Execute-All-Sh-Files.sh file
+4) Once extracted, open the BootVid-Builder-1.5 folder and locate the 1-Execute-All-Sh-Files.sh file
 5) Right-click on said file and go to Properties > Permissions
 6) Under Permissions tab, enable/check the "Is executable" option click OK
 7) Run the 1-Execute-All-Sh-Files.sh file, this will enable all necessary scripts and grant Execute permissions
@@ -84,7 +84,7 @@ Valve has now introduced official support for Overrides. Files will be placed th
   <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
 </p>
 
-## Video Conversion:
+## Video Conversion
 1) Download the required MP4 video files
 2) Inside the Converter folder, place the MP4 files into the Input Folder (no limit, script will process each one seperately)
 3) In the previous directory, run the script below:
@@ -115,9 +115,9 @@ Valve has now introduced official support for Overrides. Files will be placed th
 </p>
 
 
-## Features:
 
-### BootVid-Shuffler
+
+## BootVid-Shuffler
 
 This tool will copy all of the BootVids placed in the Vids folder and install a service to shuffle/randomize BootVids at every restart.
 
@@ -130,25 +130,56 @@ BootVids are placed in the following folder:
 /home/deck/homebrew/.shuffle/
 | :---: |
 
-### Log off and Shuffle
+<!-- Spacer -->
+<p align="center">
+  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
+</p>
+
+
+## Log off and Shuffle
 
 If BootVid Shuffler is enabled, Shuffles BootVid before performing the "Return to Gaming Mode" command, basically bypassing the restart rule.
 
-### Change Duration
+<!-- Spacer -->
+<p align="center">
+  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
+</p>
+
+## Change Duration
 
 Duration of BootVids can be adjusted from 10, 30 and 60 seconds increments. (NOTE: If duration has been updated manually, you may need to cycle thru the options or revert to 1e4).
 
-### Resize Suspends
+<!-- Spacer -->
+<p align="center">
+  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
+</p>
+
+## Resize Suspends
 
 Suspends can be toggled between 450 by 450 or 1280 by 800 resolutions.
 
-### Extract Vids
+<!-- Spacer -->
+<p align="center">
+  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
+</p>
+
+## Extract Vids
 
 All BootVids are extracted to the All-Vids folder. Vids folder reset to 0.
+<!-- Spacer -->
+<p align="center">
+  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
+</p>
 
-### Reset to Default
+## Reset to Default
 
 Resets BootVids and Suspends back to Steam Deck defaults. BootVid only option available.
+
+<!-- Spacer -->
+<p align="center">
+  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
+</p>
+
 
 
 <!-- Spacer -->
