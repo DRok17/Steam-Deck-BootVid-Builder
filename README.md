@@ -109,7 +109,7 @@ Valve has now introduced official support for Overrides. Files will be placed th
 
 <!-- MB Menu -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/81541725/193466655-e063eca8-53be-4028-b65c-84936b3353d5.gif?raw=true" alt="Sublime's custom image"/>
+  <img src="https://user-images.githubusercontent.com/81541725/197437509-b73d5096-d11f-46bb-a599-34edff9bcd3e.gif?raw=true" alt="Sublime's custom image"/>
 </p>
 <!-- Spacer -->
 <p align="center">
@@ -199,36 +199,6 @@ Resets BootVids and Suspends back to Steam Deck defaults. BootVid only option av
 <!--
 -->
 
-<!-- Spacer -->
-<p align="center">
-  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
-</p>
-
-<!-- Center Text -->
-<p align="center">
-- Screenshots -
-</p>
-
-<!-- MB Menu -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/81541725/193352170-9c1140e2-00b4-4d01-a857-91028b62ab40.png?raw=true" alt="Sublime's custom image"/>
-</p>
-
-<!-- MB Menu -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/81541725/193352647-99523ee7-843d-4dfd-a873-b9a8c243281e.png?raw=true" alt="Sublime's custom image"/>
-</p>
-
-<!-- MB Menu -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/81541725/193466812-91be4052-3304-41d6-b1bf-16fe2333e93d.png?raw=true" alt="Sublime's custom image"/>
-</p>
-
-
-<!-- Spacer -->
-<p align="center">
-  <img width="10" height="10" src="https://user-images.githubusercontent.com/81541725/168428087-611fe26a-aeb0-4617-98d7-9a239ea716d8.png">
-</p>
 
 <!-- 
 
