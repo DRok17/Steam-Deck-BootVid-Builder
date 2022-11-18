@@ -1,5 +1,5 @@
 #!/bin/sh
-css_path="/home/deck/.local/share/Steam/steamui/css/3991.css"
+css_path="/home/deck/.local/share/Steam/steamui/css/1010.css"
 sus_min="./1boot/sus-min.txt"
 sus_max="./1boot/sus-max.txt"
 
